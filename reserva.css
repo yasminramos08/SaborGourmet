@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #579808c8;
+    padding: 10px;
+    text-align: center;
+   padding: 20px;
+ 
+}
+
+.header h1 { 
+    font-family: "Curlz MT", cursive;
+    font-size: 36px;
+    color: #fffb89;
+}
+
+.video-container {
+    position: relative;
+    width: 99vw;
+    height: 150px;
+    overflow: hidden;
+    height: ;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*titulo 1*/
+
+.titulo {
+    justify-content: space-around;
+    align-items: center;
+    padding: 30%;
+    width: 100%;
+    color: white;
+    padding: 15px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #579808c8;
+    margin-left: 40px;
+}
+
+h1 span {
+    color: #bdbd00;
+}
+
+p {
+    font-size: 1rem;
+    color: #554300;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+/* reserva fomrulário */
+
+.formulario-reserva{
+    background-color: #e5f0e1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(10, 39, 2, 0.1);
+    width: 200%;
+    height: auto;
+    margin-top: 1%;
+  
+}
+
+.form-section {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.tudo-caixa{
+    padding-left: 2px;
+}
+
+.agendamento h2{
+    font-size: 1rem;
+    color: #a28311;
+    margin-bottom: 20px;
+    margin-left: 90px; 
+}
+
+/* fomrulario e calendario */
+.lado{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+
+}
+
+.calendario{
+    margin-left: 180px;
+}
+
+
